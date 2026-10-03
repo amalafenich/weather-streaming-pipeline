@@ -1,0 +1,6 @@
+﻿kafka-python
+requests
+python-dotenv
+pyspark==3.5.1
+influxdb-client
+
