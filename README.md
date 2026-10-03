@@ -219,5 +219,6 @@ Toutes les variables sont dans le fichier `.env` (modèle : `.env.example`).
 
 ## Auteur
 
-Projet réalisé par : *Afenich Amal
-ouiame biloul*
+Projet réalisé par : 
+- Amal AFENICH
+- Ouiame BILOUL
