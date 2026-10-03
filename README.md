@@ -96,7 +96,7 @@ Les températures sont en degrés Celsius, l'humidité en pourcentage, et `times
 ### 1. Récupérer le projet
 
 ```bash
-git clone https://github.com/VOTRE_PSEUDO/weather-streaming-pipeline.git
+git clone https://github.com/amalafenich/weather-streaming-pipeline.git
 cd weather-streaming-pipeline
 ```
 
@@ -217,21 +217,7 @@ Toutes les variables sont dans le fichier `.env` (modèle : `.env.example`).
 - Les clés d'API et les mots de passe sont lus depuis `.env`, qui est exclu de Git par le `.gitignore`. Seul `.env.example`, avec des valeurs factices, est publié.
 - Ne publiez jamais votre `.env`. Si une clé a été exposée par erreur, révoquez-la et générez-en une nouvelle.
 
-## Limites et améliorations
-
-- Une seule ville est suivie à la fois.
-- Kafka et Spark ne sont pas conteneurisés : Spark se lance en local avec `spark-submit`.
-- Le pipeline n'a pas de tests automatisés.
-
-Pistes d'évolution :
-
-- suivre plusieurs villes en parallèle
-- provisionner automatiquement les tableaux de bord Grafana
-- déclencher une alerte quand l'écart entre les deux fournisseurs dépasse un seuil
-- ajouter des tests unitaires et d'intégration
-- conteneuriser le producteur et le consommateur Spark
-- valider le projet avec GitHub Actions
-
 ## Auteur
 
-Projet réalisé par : *(à compléter : noms de l'équipe)*
+Projet réalisé par : *Afenich Amal
+ouiame biloul*
